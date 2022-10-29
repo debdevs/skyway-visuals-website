@@ -11,6 +11,14 @@ body {
 
 
   }
+
+
+  @font-face {
+    font-family: 'red-hat-display';
+    src: local('red-hat-display'), url(../public/fonts/RedHat/RedHatDisplay-Regular.ttf) format('truetype');
+
+
+  }
   .istok-font{
     font-family: "istok-web", serif;
     color: white;

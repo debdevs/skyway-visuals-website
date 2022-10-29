@@ -8,7 +8,7 @@
 
 
 .section_text_header{
-
+    font-family: 'red-hat-display',serif;
 font-style: normal;
 font-weight: 600;
 font-size: 39.4759px;
@@ -27,7 +27,7 @@ flex-direction: column;
 .section_text_first_description{
     width: 546.12px;
 
-
+    font-family: 'red-hat-display',serif;
     font-weight: 400;
 font-size: 19.7379px;
 line-height: 26px;
@@ -39,6 +39,7 @@ color: #000000;
 }
 
 .section_text_second_description{
+    font-family: 'red-hat-display',serif;
     text-align: center;
     width: 466.12px;
 
