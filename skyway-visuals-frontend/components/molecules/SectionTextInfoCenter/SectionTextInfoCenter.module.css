@@ -1,0 +1,54 @@
+.section_text_parent{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.section_text_header{
+
+font-style: normal;
+font-weight: 600;
+font-size: 39.4759px;
+line-height: 52px;
+display: flex;
+align-items: center;
+text-align: center;
+
+}
+.descriptions_parent{
+    display: flex;
+align-items: center;
+text-align: center;
+flex-direction: column;
+}
+.section_text_first_description{
+    width: 546.12px;
+
+
+    font-weight: 400;
+font-size: 19.7379px;
+line-height: 26px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+.section_text_second_description{
+    text-align: center;
+    width: 466.12px;
+
+
+    font-weight: 400;
+font-size: 19.7379px;
+line-height: 26px;
+
+color: #000000;
+}
+.section_text_second_description span{
+color: #01A2FC;
+}
