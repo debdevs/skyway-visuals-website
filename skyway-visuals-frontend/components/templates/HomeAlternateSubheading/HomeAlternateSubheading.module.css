@@ -1,0 +1,36 @@
+.alternate_subheading_parent{
+    width:100%;
+
+    height: 545.07px;
+   
+
+    background: linear-gradient(180deg, #040D24 0%, #06162E 21.88%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.alternate_subheading_background{
+    width:100%;
+    height:100%;
+  
+
+    -webkit-mask-image: linear-gradient(180deg, transparent 5%, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 1) 70%, transparent 95%);
+    -webkit-mask-image: linear-gradient(180deg, rgba(4, 13, 36, 0) -34.88%, #06162E -13.01%, #06162E 21.37%, rgba(6, 22, 46, 0.31) 61.47%);
+}
+.alternate_subheading_background>*{
+    transform: rotate(24.3deg);
+    margin-left: 35%;
+    margin-top: -8%;
+    opacity:.7;
+}
+
+.alternate_subheading_content{
+    width:60%;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}

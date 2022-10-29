@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css';
 import HomeHero from '../components/templates/HomeHero/HomeHero';
 import Navbar from '../components/organisms/Navbar/Navbar';
 import HomeSubheading from '../components/templates/HomeSubheading/HomeSubheading';
+import HomeAlternateSubheading from '../components/templates/HomeAlternateSubheading/HomeAlternateSubheading';
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -15,6 +16,7 @@ export default function Home() {
       <Navbar />
       <HomeHero />
       <HomeSubheading />
+      <HomeAlternateSubheading />
 
       <main className={styles.main}></main>
 

@@ -1,0 +1,87 @@
+.alternate_text_box{
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+width:100%;
+width: 314.95px;
+z-index: 3;
+}
+.alternate_text_box_top_items{
+    display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+}
+.alternate_text_box_header{
+    width:100%;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    line-height: 52px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-family: "red-hat-display", serif;
+    font-weight: 600;
+    font-size: 39.6783px;
+    line-height: 52px;
+    display: flex;
+    align-items: flex-end;
+    
+    color: #FFFFFF;
+    
+     
+}
+
+.alternate_text_box_subtext{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-top: -3%;
+    width: 100%;
+    line-height: 48px;
+
+    font-family: 'red-hat-display', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32.2386px;
+   
+    
+    background: linear-gradient(180deg, #14FF80 8.33%, #14C7FF 44.79%, #1472FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    padding:0px;
+     
+}
+
+
+.alternate_text_box_description{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-top: 5%;
+    width: 100%;
+    line-height: 48px;
+
+    font-family: 'red-hat-display', serif;
+    width: 311.25px;
+    height: 147.28px;
+
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.7379px;
+    line-height: 26px;
+    
+    color: #FFFFFF;
+    
+     
+}
+
+
+.button_row{
+    width:100%;
+    display: flex;
+    justify-content: flex-start;
+    gap:15px;
+}

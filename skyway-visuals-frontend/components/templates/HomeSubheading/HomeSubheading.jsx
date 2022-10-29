@@ -7,7 +7,6 @@ const HomeSubheading = () => {
   return (
     <div className={styles.subheading_parent}>
       <SectionTextInfoCenter />
-      <MinimalProductBox />
     </div>
   );
 };
