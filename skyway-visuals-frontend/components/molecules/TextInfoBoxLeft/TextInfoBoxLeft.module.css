@@ -1,0 +1,69 @@
+.text_box{
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+width:100%;
+width: 263.79px;
+}
+
+.text_box_header{
+    width:100%;
+    width: 263.79px;
+    height: 60.73px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: "istok-web", serif;
+    font-size: 26.71px;
+    line-height: 35px;
+    
+    color: #FFFFFF;
+     
+}
+
+.text_box_description{
+    width: 263.79px;
+    height: 60.73px;
+
+    
+    font-family: "istok-web", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.6957px;
+    line-height: 22px;
+    
+    color: #FFFFFF;
+ 
+     
+}
+
+
+.text_box_list{
+    list-style: none;
+    display:flex;
+    gap:15px;
+    color:white;
+    justify-content: flex-start;
+    width:100%;
+    padding:0px;
+    padding-inline-start: 0px;
+}
+.text_box_list li{
+    font-family: "istok-web", serif;
+    display:flex;
+    font-weight: 400;
+font-size: 13.3565px;
+line-height: 19px;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+color: #B8CBD6;
+
+}
+
+.button_row{
+    width:100%;
+    display: flex;
+    justify-content: flex-start;
+    gap:15px;
+}

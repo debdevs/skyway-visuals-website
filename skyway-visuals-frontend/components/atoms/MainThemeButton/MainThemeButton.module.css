@@ -1,0 +1,51 @@
+
+
+
+.main_button{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 115.2px;
+    height: 36.73px;
+   overflow: hidden;
+    background: transparent;
+
+    background-size: 300% 100%;
+    border: 1.66957px solid #07A6FF;
+    border-radius: 8.34783px;
+    transition: all .9s ease;
+
+    
+
+}
+.button_background{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 115.2px;
+    height: 36.73px;
+    border-radius: 8.34783px;
+    z-index: -2;
+    background: linear-gradient(97.48deg, #33F2D0 -24.05%, #0062BC 71.4%);
+    transition: all .9s ease;
+}
+.button_text{
+font-family: 'istok-web', serif;
+font-size: 16.6957px;
+color:white;
+font-weight: 400;
+
+
+}
+
+.main_button:hover .button_background{
+    opacity: 0;
+
+
+}
+
+.main_button:hover h1{
+    color: #07A6FF;
+}
