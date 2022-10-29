@@ -44,6 +44,7 @@ width: 263.79px;
     gap:15px;
     color:white;
     justify-content: flex-start;
+    align-items: center;
     width:100%;
     padding:0px;
     padding-inline-start: 0px;

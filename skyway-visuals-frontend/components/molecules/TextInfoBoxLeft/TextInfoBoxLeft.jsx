@@ -11,8 +11,8 @@ const TextInfoBoxLeft = () => {
         tools
       </p>
       <ul className={styles.text_box_list}>
-        <li>Templates</li>
-        <li>Tutorials</li>
+        <li>Templates •</li>
+        <li>Tutorials •</li>
         <li>Tools</li>
       </ul>
       <div className={styles.button_row}>

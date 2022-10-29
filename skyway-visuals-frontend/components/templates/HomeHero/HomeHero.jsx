@@ -7,12 +7,6 @@ import TextInfoBoxLeft from '../../molecules/TextInfoBoxLeft/TextInfoBoxLeft';
 const HomeHero = () => {
   return (
     <div className={styles.home_hero_parent}>
-      <Image
-        src={require('../../../public/home_hero_image_1.png')}
-        className={styles.home_hero_image}
-        alt="Picture of templates"
-        layout="raw"
-      />
       <div className={styles.home_hero_gradient_overlay} />
       <div className={styles.home_hero_content_container}>
         <TextInfoBoxLeft />
