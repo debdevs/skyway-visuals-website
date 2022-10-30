@@ -1,0 +1,9 @@
+.secondary_subheading_parent{
+    width: 100%;
+    height: 735px;
+    background: linear-gradient(180deg, #EAF7FF 0%, #FAFAFA 21.88%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

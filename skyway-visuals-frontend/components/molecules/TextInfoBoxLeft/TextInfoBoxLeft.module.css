@@ -1,36 +1,41 @@
 .text_box{
 display:flex;
 flex-direction: column;
-align-items: center;
-justify-content: flex-start;
+
 width:100%;
-width: 263.79px;
+width: 350.79px;
+gap:25px;
 }
 
 .text_box_header{
-    width:100%;
-    width: 263.79px;
+    margin-top: 10%;
+    width:80%;
+    text-align: left;
     height: 60.73px;
     font-style: normal;
     font-weight: 700;
-    font-family: "istok-web", serif;
-    font-size: 26.71px;
-    line-height: 35px;
+    font-family: "red-hat-display", serif;
+    font-size: 29.4759px;
+
+    letter-spacing: .02em;
     
     color: #FFFFFF;
      
 }
 
 .text_box_description{
-    width: 263.79px;
-    height: 60.73px;
+    width: 75%;
+    text-align: left;
 
+    margin-block-start: 0em;
+    margin-block-end: 0em;
     
-    font-family: "istok-web", serif;
+    font-family: "red-hat-display", serif;
+    letter-spacing: .01em;
     font-style: normal;
     font-weight: 400;
-    font-size: 16.6957px;
-    line-height: 22px;
+    font-size: 17.6957px;
+    
     
     color: #FFFFFF;
  
@@ -39,6 +44,8 @@ width: 263.79px;
 
 
 .text_box_list{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
     list-style: none;
     display:flex;
     gap:15px;

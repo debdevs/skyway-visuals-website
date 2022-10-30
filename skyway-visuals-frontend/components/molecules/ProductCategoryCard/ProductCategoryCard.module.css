@@ -1,0 +1,22 @@
+.category_card_parent{
+    width: 367.43px;
+height: 144.24px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 41.15%, rgba(219, 232, 237, 0.8) 100%), #FFFFFF;
+border: 0.759151px solid rgba(71, 120, 244, 0.15);
+
+border-radius: 18.2196px;
+display:flex;
+overflow: hidden;
+}
+.category_card_images{
+    display:flex;
+    position:absolute;
+    margin-left: -20px;
+}
+.category_card_front_image{
+    position:absolute;
+    display: flex;
+    top:20%;
+    left: 20%;
+    z-index:50;
+}
