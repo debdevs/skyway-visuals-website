@@ -7,7 +7,14 @@ const HomeSecondarySubheading = () => {
   return (
     <div className={styles.secondary_subheading_parent}>
       <SecondarySectionTextInfoCenter />
-      <ProductCategoryCard />
+      <div className={styles.secondary_subheading_cards}>
+        <ProductCategoryCard />
+        <ProductCategoryCard />
+        <ProductCategoryCard />
+        <ProductCategoryCard />
+        <ProductCategoryCard />
+        <ProductCategoryCard />
+      </div>
     </div>
   );
 };
