@@ -1,5 +1,6 @@
 html,
 body {
+  overflow-x: hidden;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -19,6 +20,27 @@ body {
 
 
   }
+
+:root{
+
+  --home-hero-height:620.22px;
+  --product-category-card-width: 331.15px;
+  --product-category-card-height: 130px;
+  --product-category-card-header-size: 21.89px;
+  --product-category-card-subtext-size: 13.68px;
+  --product-category-card-subtext-width: 13.68px;
+  --image-display-base-width: 117.68px;
+  --image-display-base-height: 91.68px;
+--main-header-size:35.98px;
+  --light-gradient:0;
+  --button-gradient:0;
+  --line-gradient:0
+ 
+}
+
+
+
+
   .istok-font{
     font-family: "istok-web", serif;
     color: white;
@@ -40,4 +62,15 @@ a {
     color: white;
     background: black;
   }
+}
+
+
+@media only screen and (max-width:900px){
+  :root{
+
+
+
+
+  }
+  
 }

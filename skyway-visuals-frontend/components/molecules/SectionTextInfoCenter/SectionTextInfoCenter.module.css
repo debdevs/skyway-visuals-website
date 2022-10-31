@@ -13,7 +13,7 @@
    
 }
 .section_text_parent .header_line{
-    width: 788px;
+    width: 100%;
     height: 77.43px;
 
     position:absolute;
@@ -26,8 +26,8 @@
     font-family: 'red-hat-display',serif;
 font-style: normal;
 font-weight: 600;
-font-size: 39.4759px;
-line-height: 52px;
+font-size: 35.58px;
+line-height: 47.07px;
 display: flex;
 align-items: center;
 text-align: center;
@@ -43,7 +43,7 @@ margin-top:0%;
 
 }
 .section_text_first_description{
-    width: 546.12px;
+    width: 75%;
 
     font-family: 'red-hat-display',serif;
     font-weight: 400;

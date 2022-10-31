@@ -18,3 +18,7 @@
     gap:25px;
     width:85%;
 }
+@media only screen and (max-width:815px){
+.secondary_subheading_cards > :nth-child(n+4) {
+    display: none;
+}}

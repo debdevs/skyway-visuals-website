@@ -1,5 +1,6 @@
 .main_theme_line{
-    width: 488.89px;
+    width:100%;
+    max-width: 488.89px;
 height: 1.52px;
 height: 1.578px;
     background: linear-gradient(97.48deg, #33F2D0 -24.05%, #0062BC 71.4%);

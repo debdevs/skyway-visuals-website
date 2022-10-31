@@ -2,7 +2,7 @@
     display:flex;
     justify-content:center ;
     align-items: center;
-    height:516.22px;
+    height:var( --home-hero-height);
     width:100%;
     overflow: hidden;
     background-image: url("../../../public/home_hero_image_1.png");
@@ -21,7 +21,7 @@
 
 .home_hero_gradient_overlay{
     position:absolute;
-    height:516.22px;
+    height:var( --home-hero-height);
     width:100%;
     z-index:1;
     background: linear-gradient(0deg, rgba(14, 44, 71, 0.88), rgba(14, 44, 71, 0.88)), linear-gradient(180deg, rgba(0, 0, 0, 0) 22.4%, #000000 91.15%, #1C434B 99.48%);
