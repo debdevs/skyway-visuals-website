@@ -1,0 +1,27 @@
+.footer_column_parent{
+    display:flex;
+    flex-direction: column;
+    gap:15px;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+}
+.footer_column_list{
+    display:flex;
+    flex-direction: column;
+    gap:5px;  
+}
+
+.footer_column_list >*{
+    font-family: 'red-hat-display', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.9664px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    
+    color: #8FA3A5;
+    
+
+}

@@ -1,0 +1,14 @@
+.footer_button{
+    width:100%;
+    max-width: 146.34px;
+    height: 46.66px;
+    background: transparent;
+    color:white;
+    border:0px solid white;
+    font-family: 'red-hat-display',serif;
+    font-size: 21.208px;
+
+
+    border-left: 2.1208px solid #07A6FF;
+    border-radius: 10.604px;
+}
