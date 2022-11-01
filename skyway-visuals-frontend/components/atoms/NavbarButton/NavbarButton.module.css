@@ -1,0 +1,11 @@
+.navbar_button{
+    cursor:pointer;
+    background:transparent;
+    border:0px solid transparent;
+    width: 105.36px;
+    height: 32.84px;
+    font-family: 'red-hat-display',serif;
+    color:white;
+    border-right: 1.36838px solid #07A6FF;
+    border-radius: 6.84188px;
+}
