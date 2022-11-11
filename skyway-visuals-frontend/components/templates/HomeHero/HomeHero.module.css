@@ -25,6 +25,8 @@
     width:100%;
     z-index:1;
     background: linear-gradient(0deg, rgba(14, 44, 71, 0.88), rgba(14, 44, 71, 0.88)), linear-gradient(180deg, rgba(0, 0, 0, 0) 22.4%, #000000 91.15%, #1C434B 99.48%);
+    
+
 }
 .home_hero_content_container{
     display:flex;

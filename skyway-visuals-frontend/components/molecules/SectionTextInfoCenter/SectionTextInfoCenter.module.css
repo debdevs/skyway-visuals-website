@@ -13,13 +13,14 @@
    
 }
 .section_text_parent .header_line{
-    width: 100%;
+    width: 75%;
     height: 77.43px;
 
     position:absolute;
     border-top: 1.5183px solid rgba(7, 166, 255, 0.15);
     border-radius: 7.59151px;
     margin-top: -7%;
+    
 }
 .section_text_header{
     width:70%;
@@ -31,6 +32,7 @@ line-height: 47.07px;
 display: flex;
 align-items: center;
 text-align: center;
+color: var(--font-color);
 
 }
 .descriptions_parent{
@@ -53,7 +55,7 @@ display: flex;
 align-items: center;
 text-align: center;
 
-color: #000000;
+color: var(--font-color);
 }
 
 .section_text_second_description{
@@ -66,7 +68,7 @@ color: #000000;
 font-size: 19.7379px;
 line-height: 26px;
 
-color: #000000;
+color: var(--font-color);
 }
 .section_text_second_description span{
 color: #01A2FC;

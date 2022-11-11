@@ -16,8 +16,8 @@ const TextInfoBoxLeft = () => {
         <li>Tools</li>
       </ul>
       <div className={styles.button_row}>
-        <MainThemeButton />
-        <AlternateThemeButton />
+        <MainThemeButton button_text="Explore" />
+        <AlternateThemeButton button_text="Demo" />
       </div>
     </div>
   );

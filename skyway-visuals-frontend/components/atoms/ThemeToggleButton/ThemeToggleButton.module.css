@@ -1,4 +1,4 @@
-.navbar_button{
+.theme_button{
     cursor:pointer;
     background:transparent;
     border:0px solid transparent;
@@ -11,7 +11,7 @@
     transition: all .4s ease;
 }
 
-.navbar_button:hover{
+.theme_button:hover{
     color:  #07A6FF;
     border-right: 1.36838px solid white;
     transform: rotate3d(1, 95, 1, 5deg);

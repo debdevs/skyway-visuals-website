@@ -15,7 +15,6 @@ const AlternateTextInfoBoxLeft = () => {
       </div>
       <div className={styles.button_row}>
         <MainThemeButton />
-        <AlternateThemeButton />
       </div>
     </div>
   );

@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/future/image';
 import styles from './Navbar.module.css';
 import NavbarButton from '../../atoms/NavbarButton/NavbarButton';
+import ThemeToggleButton from '../../atoms/ThemeToggleButton/ThemeToggleButton';
 const Navbar = () => {
   return (
     <div className={styles.navbar_parent}>
@@ -14,6 +15,7 @@ const Navbar = () => {
             layout="raw"
           />
         </left-items>
+        <ThemeToggleButton />
         <right-items>
           <NavbarButton />
           <NavbarButton />

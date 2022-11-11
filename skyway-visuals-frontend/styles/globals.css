@@ -1,5 +1,6 @@
 html,
 body {
+  transition: 0.25s ease-in-out;
   overflow-x: hidden;
   padding: 0;
   margin: 0;
@@ -21,6 +22,39 @@ body {
 
   }
 
+  body,
+body[data-theme="light"] {
+    --font-color: #000000;
+    --body-bg-color: #ffffff;
+    --hero-gradient-color-main: #EAF7FF;
+    --hero-gradient-color-secondary: #FAFAFA;
+    --hero-gradient: linear-gradient(180deg, var( --hero-gradient-color-main) 0%, var(--hero-gradient-color-secondary) 21.88%);
+   
+    --category-card-background-color-main: rgba(255, 255, 255, 0);
+    --category-card-background-color-secondary:rgba(219, 232, 237, 0.8);
+    --category-card-background-color-final: #FFF;
+   
+    --category-card-background-color: linear-gradient(180deg, var( --category-card-background-color-main)  41.15%, var( --category-card-background-color-secondary) 100%), var( --category-card-background-color-final);
+  
+  
+  }
+  body[data-theme="dark"] {
+    
+    --font-color:#ffffff;
+    --hero-gradient-color-main:: #000000;
+    --hero-gradient-color-secondary: #031734;
+    
+    --hero-gradient: linear-gradient(180deg, #000000 70.31%, #032134 100%);
+
+    --category-card-background-color-main: #000000 ;
+    --category-card-background-color-secondary:#141F30;
+    --category-card-background-color-final: #FFF;
+
+    --background1: linear-gradient(180deg, #000000 84.9%, #141F30 100%), #FFFFFF;
+ 
+  }
+  
+
 :root{
 
   --home-hero-height:620.22px;
@@ -37,8 +71,6 @@ body {
   --line-gradient:0
  
 }
-
-
 
 
   .istok-font{

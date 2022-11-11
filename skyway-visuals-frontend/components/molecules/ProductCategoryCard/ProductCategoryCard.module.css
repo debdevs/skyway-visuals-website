@@ -94,3 +94,8 @@ color: #59677B;
 }
 
 
+.category_card_parent:hover {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 41.15%, rgba(150, 203, 223, 0.8) 100%), #FFFFFF;
+    background: rgba(241, 252, 255, 0.8) ;
+    transform: scale(.97);
+}
